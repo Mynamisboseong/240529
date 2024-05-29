@@ -18,6 +18,28 @@ img {
   height:auto;
 }
 
+#ani3 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation-name: bgchange;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+  @keyframes bgchange {
+    0%{background-color: red;
+    left: 0;}
+    25%{background-color: orange;
+    left: 25%;
+    top: 200px;}
+    50%{background-color: yellow;
+    left: 50%;
+    top: 200px;}
+    100%{background-color: green;
+    left: 80%;}
+  }
+
 #head_title {
   text-align: center;
   font-size: 1.3em;
